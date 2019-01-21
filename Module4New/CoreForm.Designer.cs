@@ -1,6 +1,6 @@
 ﻿namespace Module4New
 {
-    partial class Form1
+    partial class CoreForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // CoreForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(545, 425);
+            this.Font = new System.Drawing.Font("Tw Cen MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name = "CoreForm";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
